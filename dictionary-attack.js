@@ -15,10 +15,6 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-if ("btnSubmit" = wordsList) {
-  txt = "Weak password!";
-} else {
-  txt = "Strong password!";
-}
+
   
 }
