@@ -15,6 +15,9 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-
+   if getElementById("pw").innerHTML = (pw == wordsList);
+}
+ 
+      
   
 }
