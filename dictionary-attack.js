@@ -18,7 +18,9 @@ function checkPassword() {
    var password = document.getElementById("pw")
    var list = wordsList
 
-if ( list == password) {
+for (i = 0; i < wordsList.length; i++) {
+  
+  if ( password == wordsList[i]) {
   alert("Weak password!");
 } 
   else {
