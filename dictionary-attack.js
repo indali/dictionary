@@ -18,7 +18,7 @@ function checkPassword() {
    var password = document.getElementById("pw")
    var length = wordsList
 
-if (length == password) {
+if (length = password) {
   alert("Weak password!");
 } else {
   alert("Good password!");
