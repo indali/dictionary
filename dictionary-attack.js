@@ -19,7 +19,7 @@ function checkPassword() {
    var length = password.length;
 }
 
-if (password == words) {
+if (length < 8) {
   alert("Weak password!");
 }
 else {
