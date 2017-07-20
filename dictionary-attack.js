@@ -23,9 +23,6 @@ for (i = 0; i < wordsList.length; i++) {
   if ( password == wordsList[i]) {
   alert("Weak password!");
 } 
-  else {
-  alert("Good password!");
-        }
   
 console.log(pw);
   
