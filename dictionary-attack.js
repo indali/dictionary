@@ -20,11 +20,7 @@ function checkPassword() {
 
 if (length < 8) {
   alert("Weak password!");
-}
-else {
+} else {
   alert("Good password!");
         }
- 
-      
-  
 }
