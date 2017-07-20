@@ -16,9 +16,9 @@ window.onload = init;
 
 function checkPassword() {
 if ("btnSubmit" = wordsList) {
-  display = "Weak password!";
+  txt = "Weak password!";
 } else {
-  display = "Strong password!";
+  txt = "Strong password!";
 }
   
 }
