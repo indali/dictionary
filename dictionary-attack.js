@@ -22,5 +22,5 @@ for (i = 0; i < wordsList.length; i++) {
   if ( password == wordsList[i]) {
   window.alert("Weak password!");
 } 
-  
+}
 }
