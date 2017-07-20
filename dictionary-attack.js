@@ -24,7 +24,4 @@ for (i = 0; i < wordsList.length; i++) {
   window.alert("Weak password!");
 } 
   
-console.log(pw);
-  
-  
 }
