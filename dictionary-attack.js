@@ -16,11 +16,15 @@ window.onload = init;
 
 function checkPassword() {
    var password = document.getElementById("pw")
-   var length = password.length;
+   var length = wordsList.length
 
 if (length < 8) {
   alert("Weak password!");
 } else {
   alert("Good password!");
         }
+  
+console.log(pw);
+  
+  
 }
