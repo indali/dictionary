@@ -16,8 +16,9 @@ window.onload = init;
 
 function checkPassword() {
    var password = document.getElementById("pw")
+   var list = wordsList
 
-if (init == password) {
+if ( list == password) {
   alert("Weak password!");
 } 
   else {
