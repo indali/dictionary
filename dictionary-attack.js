@@ -15,8 +15,16 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-   document.getElementById("pw").innerHTML = (pw == wordsList);
+   var password = document.getElementById("pw")
+   var words = wordsList;
 }
+
+if (password == words) {
+  alert("Weak password!");
+}
+else {
+  alert("Good password!");
+        }
  
       
   
