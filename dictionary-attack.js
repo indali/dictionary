@@ -19,9 +19,9 @@ function checkPassword() {
    var length = wordsList
 
 if (length = password) {
-  alert("Weak password!");
-} else {
   alert("Good password!");
+} else {
+  alert("Weak password!");
         }
   
 console.log(pw);
