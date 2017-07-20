@@ -15,8 +15,7 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-   if document.getElementById("pw").innerHTML = (pw == wordsList);
-      then window.alert(Weak password!);
+   document.getElementById("pw").innerHTML = (pw == wordsList);
 }
  
       
